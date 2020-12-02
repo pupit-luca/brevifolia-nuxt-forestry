@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: document
-  path: content/content.json
-  label: Tetst
 - type: heading
   label: Content
 - type: directory
@@ -15,7 +12,7 @@ sections:
   create: documents
   match: "**/*"
   templates:
-  - blog-post
+  - test
 - type: document
   path: content/data/authors.json
   label: Author List
