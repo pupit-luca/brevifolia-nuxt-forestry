@@ -1,4 +1,16 @@
 ---
 label: test
 hide_body: true
-fields: []
+fields:
+- name: blogpost
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: documents
+      section: blog-posts
+      file: 
+      path: 
+  label: blogpost
